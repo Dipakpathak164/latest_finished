@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest finished template</title>
+    <!-- ----bootstrap--- -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <!-- ----fontawesome cdn---- -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ----custom css---- -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <header class="header p-0 m-0">
+            <div class="container">
+                <div class="row header_row d-flex align-items-center py-1">
+                    <div class="col-lg-4 col-md-2 col-sm-2 p-0">
+                        <div class="logo d-flex align-items-center justify-content-start">
+                           <a href="#" class="logo_icon text-white"> <i class="fa fa-search-minus fa-3x"></i></a>
+                         </div>
+                    </div>
+                    <div class="col-lg-8 col-md-10 col-sm-10 p-0">
+                        <div class="right-item d-flex align-items-center justify-content-end">
+                               <button class="btn btn-primary btn_one">
+                                <i class="fa fa-clock-o pr-1"></i>
+                                <a href="#" class="text-white">techasoft</a>
+                                 <i class="fa fa-caret-down pl-4" aria-hidden="true"></i>
+                               </button>
+
+                               <div class="right-item_notification px-4">
+                                <i class="fa fa-bell fa-2x " aria-hidden="true"></i>
+                               </div>
+
+                               <button class="btn text-white p-0 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="d-inline-block">
+                                    <img src="./images/elon.jpg" class="" style="width: 40px; height: 40px;" alt="">
+                                </div>   
+                                 <a href="#" class="text-white">Shreeharsha</a>
+                                  <i class="fa fa-caret-down pl-2" aria-hidden="true"></i>
+                              </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+          <!--==== dashboard ==== -->
+      <div class="container-fluid dashboard">
+        <div class="container py-2">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+                    <div class="left-menu">
+                        <ul class="list-unstyled menu_item d-flex align-items-center justify-content-start mb-0 ">
+                            <li> 
+                                <a href="#" class="text-white d-flex align-items-center">
+                                    <i class="fa fa-bars mr-2" aria-hidden="true"></i> Dashboard
+                               </a>
+                           </li>
+                            <li > 
+                               <a href="#" class="text-white d-flex align-items-center"> 
+                                <i class="fa fa-users mr-2" aria-hidden="true"></i>
+                                Users 
+                               </a>
+                           </li>
+                            <li > 
+                               <a href="#" class="text-white d-flex align-items-center">
+                                <i class="fa fa-crosshairs mr-2" aria-hidden="true"></i>
+                                apps
+                              </a>
+                           </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+                   <div class="add-div d-flex align-items-center justify-content-end">
+                           <button class="button add_btn d-flex align-items-center p-2" onclick="showModal();">
+                            <i class="fa fa-plus-circle mr-2"></i> 
+                            <h4 class="m-0"> Add project</h4>
+                        </button>
+                   </div>
+                </div>
+            </div>
+        </div>
+  </div>
+  <!-- ==== dashboard ends ==== -->
+    <div class="container Navigation p-0">
+      <nav class="navbar navbar-expand-md navbar-light  p-0">
+           <div></div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto d-flex align-items-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fa fa-bar-chart mr-2" aria-hidden="true"></i>Rankings</a>
+                <div class="b-line"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-line-chart mr-2" aria-hidden="true"></i> Analytics & Traffic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-search-minus mr-2" aria-hidden="true"></i>Competitors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-search-minus mr-2" aria-hidden="true"></i>Competitors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <i class="fa fa-pie-chart mr-2" aria-hidden="true"></i>Website Audit</a>
+              </li>
+              <li class="nav-item">   
+                <a class="nav-link" href="#"><i class="fa fa-file mr-2" aria-hidden="true"></i>Backlink Monitoring</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="btn btn-primary download_btn nav-link text-white p-3">Download Report</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+     </div>
+    <!-- === ends custom nav === -->
+      <!-- === breadcrumb === -->
+      <div class="container-fluid breadcrumb-container">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-4 col-md-5  p-0 m-0">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item"><a href="#"><i class="fa fa-bar-chart mr-2" aria-hidden="true"></i>TECHASOFT</a></li>
+                  <li class="breadcrumb-item"><a href="#">Rankings</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Detailed</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="col-lg-8 col-md-7 d-flex justify-content-end dflex p-0 m-0">
+                <div class="btn-Dv">
+                    <!-- ---btn-1 -->
+                     <button class="btn btn-primary check_Btn">
+                       
+                      <a href="#">check Rank</a>
+                    </button>
+                    <i class="fa fa-caret-down  icon_bg" aria-hidden="true"></i>  
+                     <!-----/  -->
+                     <!-- ---btn-2--- -->
+                  <button class="btn btn-primary mr-3">
+                    <i class="fa fa-plus " aria-hidden="true"></i>
+                      <a href="#"> Add Keywords</a>
+                  </button>
+                  <!-- ---/-- -->
+                  <!-- ----btn-3 -->
+                  <button class="btn btn-filter " id="btn-filter">
+                    <i class="fa fa-filter" aria-hidden="true"></i>
+                       <a href="#" class="text-dark">Filter</a>
+                  </button>
+                <!-- -----/---- --> 
+              
+                </div>
+                 
+            </div>
+          </div>
+          </div>
+           <!-- filter div -->
+           <div class="container filter-container d-flex justify-content-end p-0">
+            <div class="filter-div text-center py-1" id="filter-div">
+                   <h4 class="my-1 text-capitalize">Select your category</h4>
+                  <button class="btn btn-primary">
+                    HEALTHCARE
+                  </button>
+                  <button class="btn btn-warning text-white">
+                    E-COMMERCE
+                  </button>
+                  <button class="btn btn-success">
+                    DESIGN
+                  </button>
+                  
+            </div>
+           </div>
+          <!-- ends filter div -->
+    </div>
+    <!-- ===ends breadcrumb=== -->
+    
+      <!-- === table === -->
+      <div class="container table-container my-3"> 
+       <div class="tble-heading d-flex align-items-center justify-content-between">
+           <div>
+            <a class="navbar-brand text-uppercase font-weight-bold m-0" href="#">
+              <img src="./images/2991148.svg" width="25" height="25" class="mr-1" alt="">
+              india
+             </a>
+           </div>
+           <h4 class="m-0">CALENDER</h4>
+       </div>
+    <div class="table-responsive ">
+      <table class="table table-bordered">
+        <thead class="thead-blue ">
+          <tr class="">
+            <th class="text-left"><i class="fa fa-circle-o pr-2" aria-hidden="true"></i>Keyword</th>
+            <th>Url</th>
+            <th width="180">Search Val.</th>
+            <th class="th-bg">03</th>
+            <th class="th-bg">03</th>
+            <th class="th-bg">11</th>
+            <th class="th-bg">12</th>
+            <th class="th-bg">12</th>
+            <th class="th-bg">13</th>
+            <th class="th-bg">13</th>
+            <th class="th-bg">14</th>
+            <th class="th-bg">14</th>
+            <th class="th-bg"><i class="fa fa-desktop" aria-hidden="true"></i></th>
+          </tr>
+        </thead>
+     
+        <tbody class="">
+          <tr class="">
+            <td class="text-left"><i class="fa fa-circle-o pr-2" aria-hidden="true"></i>Software Development Company</td>
+            <td><i class="fa fa-spinner" aria-hidden="true"></i></td>
+            <td>880</td>
+            <td class="td-bg m-3">-</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">2</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">01</td>
+          </tr>
+          <tr>
+            <td  class="text-left"><i class="fa fa-circle-o pr-2" aria-hidden="true"></i>Digital Marketing Company in Bang..</td>
+            <td><i class="fa fa-spinner" aria-hidden="true"></i></td>
+            <td>880</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">2</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">01</td>
+          </tr>
+          <tr>
+            <td class="text-left"><i class="fa fa-circle-o pr-2" aria-hidden="true"></i>Software Development Company</td>
+            <td  ><i class="fa fa-spinner" aria-hidden="true"></i></td>
+            <td>880</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">2</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">1</td>
+            <td class="td-bg">-</td>
+            <td class="td-bg">01</td>
+          </tr>
+        </tbody>
+         </table>
+          </div>
+        </div>
+        <!-- ==ends of table== -->
+    </section>
+      <!-- Modal -->
+ <!-- ------------modal----- -->
+<div class="modal" id="showModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg talk-us" role="document">
+    <div class="modal-content .talk-content">
+       <div class="container">
+           <div class="row ">
+               <div class="col-12 text-center text-uppercase .talk-content_head">
+                 <h2>enter your details</h2>
+                <div class="border-btm"></div>
+            </div>
+           </div>
+           <div class="row text-center">
+            <div class="col-md-6 col-lg-10 mx-auto">
+              <form action="">
+                <div class="col-md-12">
+                  <div class="form-group form-inline mb-4">
+                   <div class="col-md-5 col-lg-3 col-sm-5 pl-lg-4">
+                      <label for="name" class="lbl_styl d-flex justify-content-start">Full Name</label>
+                   </div>
+                   <div class="col-md-7 col-lg-7 col-sm-6 offset-lg-1">
+                      <input type="text" class="form-control inpt_styl" id="name" placeholder="Write your full name">
+                   </div>
+                 </div>
+                </div>
+                <div class="col-md-12">
+                   <div class="form-group form-inline mb-4">
+                     <div class="col-md-5 col-lg-3 col-sm-5 pl-lg-4">
+                        <label for="email1" class="lbl_styl d-flex justify-content-start">project name</label>
+                     </div>
+                      <div class="col-md-7 col-lg-7 col-sm-6  offset-lg-1">
+                          <input type="text" class="form-control inpt_styl" id="email1" placeholder="your project name">
+                     </div> 
+                   </div>
+                </div>
+                <div class="col-md-12">
+                   <div class="form-group form-inline mb-4">
+                   <div class="col-md-5 col-lg-3 col-sm-5 pl-lg-4">
+                       <label for="email1" class="lbl_styl d-flex justify-content-start">Email address</label>
+                   </div>
+                    <div class="col-md-7 col-lg-7 col-sm-6  offset-lg-1">
+                        <input type="text" class="form-control inpt_styl" id="email1" placeholder="Enter email">
+                     </div> 
+                   </div>
+               </div>
+                <div class="col-md-12">
+                    <div class="form-group form-inline mb-4">
+                      <div class="col-md-5 col-lg-3 col-sm-5 pl-lg-4">
+                       <label for="phone" class="lbl_styl d-flex justify-content-start">Phone No</label>
+                    </div>
+                  <div class="col-md-7 col-lg-7 col-sm-6  offset-lg-1">
+                     <input type="email" class="form-control inpt_styl" id="phone" placeholder="Enter Phone Number">
+                  </div>
+                  </div>
+                 </div>
+                 <div class="col-md-12">
+                  <div class="form-group form-inline mb-4">
+                  <div class="col-md-5 col-lg-3 col-sm-5 pl-lg-4">
+                  <label for="Message" class="lbl_styl d-flex justify-content-start">comments</label>
+                  </div>
+                  <div class="col-md-7 col-lg-7 col-sm-6  offset-lg-1">
+                    <textarea class="form-control controls inpt_styl" placeholder="Enter your comments" rows="5" id="" name="message" spellcheck="false"></textarea>
+                  </div>
+                  </div>
+                 </div>
+             </form>
+            </div>
+         
+          </div>
+          <div class="row ">
+            <div class="col-12 confirm-btn d-flex justify-content-center">
+            <button type="button" class="btn btn-inf text-white" data-dismiss="modal"><h4>Cancel</h4></button>
+            <button type="button" class="btn btn-prm text-white"> <h4>Submit</h4></button>
+          </div>
+        </div>
+        <button class="btn d-inline-block m-0 p-0" data-dismiss="modal" type="button">
+          <i class="fa fa-times close-btn" aria-hidden="true"></i>
+        </button>
+       </div>
+      
+    </div>
+  </div>
+</div>
+<!-- -------end of modal-------- -->
+                                  
+    
+<!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- compieled js for bootstrap -->
+<script src="./js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+       $('#btn-filter').click(function(){
+           $('#filter-div').toggle();
+       });
+  });
+</script>
+<script>
+  function showModal(){
+         $('#showModal').modal('show');
+  }
+</script>
+</body>
+</html>
